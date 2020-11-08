@@ -9,14 +9,6 @@ In the analysis, we clean up the data, transform and filter it with dataframes a
 
 The tools used in this analysis are: Python with PySpark in Google Colab (used to transform and clean the dataset), pgAdmin with SQL tables, and AWS servers. 
 
-## Storage in AWS 
-
-Since the dataset in this analysis is so large, it is important to store it on a cloud based server. This data is uploaded to the AWS using pgAdmin. Below are screenshots of the dataset stored in various SQL tables in pgAdmin. 
-
-<img width="253" alt="customers_table" src="https://user-images.githubusercontent.com/67871338/98471863-2ba98e80-21bd-11eb-9ecc-4c5c3a91bbaf.PNG">          <img width="255" alt="products_table" src="https://user-images.githubusercontent.com/67871338/98471865-2e0be880-21bd-11eb-802a-bbda2994272d.PNG">
-
-<img width="458" alt="review_id_table" src="https://user-images.githubusercontent.com/67871338/98471866-2fd5ac00-21bd-11eb-9582-3732278c36d9.PNG"><img width="517" alt="vine_table" src="https://user-images.githubusercontent.com/67871338/98471870-32380600-21bd-11eb-8bad-4f7d71e03065.PNG">
-
 ## Results 
 
 ### 1. How many Vine reviews and non-Vine reviews were there? 
@@ -36,3 +28,12 @@ In conclusion, there are a few different points to call out about the Vine paid 
 - There are only 33 total reviews for the paid program, compared to 45,388 unpaid reviews. This means that there is a lot more valuable insight to gather from the unpaid reviews since the dataset is much larger. 
 - There is negative bias for the paid reviews, as the % to total of 5 star reviews was only 45% compared to unpaid at 52%. This means that the customers rating the product might have been more critical because they were being paid for their insight. Those who left unpaid reviews were responding more accurately because there was no outside influence on their opinions or reviews. 
 - In order to support this conclusion, I would also look at other ratings in the reviews. Perhaps the paid Vine reviewers rated more things with a 4 instead of 5 compared to unpaid reviews (and had a higher percentage of 4 star ratings). This could be because they didn't want to always provide 100% satisfaction with the product since they were being paid and wanted to appear that they were being critical of the product. 
+
+## Storage in AWS 
+
+Since the dataset in this analysis is so large, it is important to store it on a cloud based server. This data is uploaded to the AWS using pgAdmin. Below are screenshots of the dataset stored in various SQL tables in pgAdmin. 
+
+<img width="253" alt="customers_table" src="https://user-images.githubusercontent.com/67871338/98471863-2ba98e80-21bd-11eb-9ecc-4c5c3a91bbaf.PNG">          <img width="255" alt="products_table" src="https://user-images.githubusercontent.com/67871338/98471865-2e0be880-21bd-11eb-802a-bbda2994272d.PNG">
+
+<img width="458" alt="review_id_table" src="https://user-images.githubusercontent.com/67871338/98471866-2fd5ac00-21bd-11eb-9582-3732278c36d9.PNG"><img width="517" alt="vine_table" src="https://user-images.githubusercontent.com/67871338/98471870-32380600-21bd-11eb-8bad-4f7d71e03065.PNG">
+
