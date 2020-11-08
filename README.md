@@ -1,4 +1,4 @@
-# Amazon Apparel Customer Rating Analysis
+# Amazon Apparel Customer Rating Analysis :dress:
 ### ETL Analysis on Big Data using Python, SQL, and AWS
 
 ## Overview of Amazon Customer Rating Analysis
