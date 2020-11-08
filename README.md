@@ -13,9 +13,9 @@ The tools used in this analysis are: Python with PySpark in Google Colab (used t
 
 Since the dataset in this analysis is so large, it is important to store it on a cloud based server. This data is uploaded to the AWS using pgAdmin. Below are screenshots of the dataset stored in various SQL tables in pgAdmin. 
 
-<img width="253" alt="customers_table" src="https://user-images.githubusercontent.com/67871338/98471863-2ba98e80-21bd-11eb-9ecc-4c5c3a91bbaf.PNG"> <img width="255" alt="products_table" src="https://user-images.githubusercontent.com/67871338/98471865-2e0be880-21bd-11eb-802a-bbda2994272d.PNG">
+<img width="253" alt="customers_table" src="https://user-images.githubusercontent.com/67871338/98471863-2ba98e80-21bd-11eb-9ecc-4c5c3a91bbaf.PNG">          <img width="255" alt="products_table" src="https://user-images.githubusercontent.com/67871338/98471865-2e0be880-21bd-11eb-802a-bbda2994272d.PNG">
 
-<img width="458" alt="review_id_table" src="https://user-images.githubusercontent.com/67871338/98471866-2fd5ac00-21bd-11eb-9582-3732278c36d9.PNG"> <img width="517" alt="vine_table" src="https://user-images.githubusercontent.com/67871338/98471870-32380600-21bd-11eb-8bad-4f7d71e03065.PNG">
+<img width="458" alt="review_id_table" src="https://user-images.githubusercontent.com/67871338/98471866-2fd5ac00-21bd-11eb-9582-3732278c36d9.PNG"><img width="517" alt="vine_table" src="https://user-images.githubusercontent.com/67871338/98471870-32380600-21bd-11eb-8bad-4f7d71e03065.PNG">
 
 ## Results 
 
