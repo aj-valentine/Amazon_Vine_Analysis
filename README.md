@@ -13,19 +13,28 @@ The tools used in this analysis are: Python with PySpark in Google Colab (used t
 
 Since the dataset in this analysis is so large, it is important to store it on a cloud based server. This data is uploaded to the AWS using pgAdmin. Below are screenshots of the dataset stored in various SQL tables in pgAdmin. 
 
--- insert screenshots here 
+<img width="253" alt="customers_table" src="https://user-images.githubusercontent.com/67871338/98471863-2ba98e80-21bd-11eb-9ecc-4c5c3a91bbaf.PNG">
+
+<img width="255" alt="products_table" src="https://user-images.githubusercontent.com/67871338/98471865-2e0be880-21bd-11eb-802a-bbda2994272d.PNG">
+
+<img width="458" alt="review_id_table" src="https://user-images.githubusercontent.com/67871338/98471866-2fd5ac00-21bd-11eb-9582-3732278c36d9.PNG">
+
+<img width="517" alt="vine_table" src="https://user-images.githubusercontent.com/67871338/98471870-32380600-21bd-11eb-8bad-4f7d71e03065.PNG">
 
 ## Results 
 
 1. How many Vine reviews and non-Vine reviews were there? 
-- Once the dataset was cleaned (filtered for total votes over 20, and whether helpful votes/total votes is >= 50%), there were 45,421 total reviews. 
-- There were 33 total paid Vine reviews and 45,388 unpaid reviews. 
+
+Once the dataset was cleaned (filtered for total votes over 20, and whether helpful votes/total votes is >= 50%), there were 45,421 total reviews. 
+There were 33 total paid Vine reviews and 45,388 unpaid reviews. 
 
 2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars? 
-- There are only 15 five star Vine reviews. There are 23,733 five star unpaid reviews. 
+
+There are only 15 five star Vine reviews. There are 23,733 five star unpaid reviews. 
 
 3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars? 
-- 45% of Vine reviews were five stars. 52% of non-Vine reviews were five stars. 
+
+45% of Vine reviews were five stars. 52% of non-Vine reviews were five stars. 
 
 ## Summary 
 
