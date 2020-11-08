@@ -23,17 +23,14 @@ Since the dataset in this analysis is so large, it is important to store it on a
 
 ## Results 
 
-1. How many Vine reviews and non-Vine reviews were there? 
-
+### 1. How many Vine reviews and non-Vine reviews were there? 
 Once the dataset was cleaned (filtered for total votes over 20, and whether helpful votes/total votes is >= 50%), there were 45,421 total reviews. 
 There were 33 total paid Vine reviews and 45,388 unpaid reviews. 
 
-2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars? 
-
+###2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars? 
 There are only 15 five star Vine reviews. There are 23,733 five star unpaid reviews. 
 
-3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars? 
-
+### 3. What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars? 
 45% of Vine reviews were five stars. 52% of non-Vine reviews were five stars. 
 
 ## Summary 
